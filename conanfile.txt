@@ -1,5 +1,6 @@
 [requires]
 gtest/1.13.0
+zlib/1.2.11
 
 [generators]
 CMakeToolchain

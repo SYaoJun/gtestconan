@@ -1,4 +1,6 @@
 # conan
+## 简介
+C/C++包管理工具
 ## 环境
 - Ubuntu 22.04
 ## 安装
@@ -6,6 +8,12 @@
 pip3 install conan
 conan --version
 ``` 
+## 查看远程仓库
+```bash
+conan remote remove conancenter
+conan remote add conancenter https://center.conan.io
+conan remote list
+```
 ## 生成默认配置
 ```bash
 conan profile detect
